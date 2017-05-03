@@ -1,0 +1,1347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ServerTcpChat.Classes.BaseAgreement" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAQYIAAAAyAAAgAAACAIAAAAAAIAAg=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AddAgreement" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAIAAAAAAAAAAhIAABAwAAAAgAAAgAAAAgAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.BaseAgreementManager" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACSAAAAABQAAAAACAAAEAAACAIAAAAAAKAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_AddAgreementManager" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAIACAQAIAIABBAAABAQBAAAgAEAgAAAAgAAAAAQ=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AllAgreements" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FBCEAIAAAACEAASBBAAABAQACAAkBACgIAgQgAAYAAQ=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Agreement" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAIABAAQIAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.BaseChat" Collapsed="true">
+    <Position X="1.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEApAAQAAAAQAAAAAAACEACAICEIABCAEAAAQAAAAAI=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.PrivateChat" Collapsed="true">
+    <Position X="0.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAAAAEAAAAAIAAAAAAAEAAAAAEIAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.PublicChat" Collapsed="true">
+    <Position X="2.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAEAAAAAIAAAAAgCAAAAAAAIAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_BaseChatManager" Collapsed="true">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAGAAACAICIAAACAAAEAQAAKAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_PrivateChatManager" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAIAAAAAAAEAAAAAICCAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_PublicChatManager" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAACEAIAAAICAAAEgCAAgAAAAAAQA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AllChats" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAaAABCAAABEAAAAAAAAAAEABEABCSEBAAxAAICAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ChatUser" Collapsed="true">
+    <Position X="53.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAEAAgAAAAAAAgAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.MessageToDistributer" Collapsed="true">
+    <Position X="51.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAACAAAg=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.MessageToServerWorker" Collapsed="true">
+    <Position X="53.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.UserData" Collapsed="true">
+    <Position X="55.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAgAAAAAgAQAAAAAgAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ServerWorkerData" Collapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIQAQ=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.SendToWorkerConstruct" Collapsed="true">
+    <Position X="55.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ReceiveFromServerWorkerConstruct" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.WorkersPortNumberConstruct" Collapsed="true">
+    <Position X="44.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.SendToDistributerConstruct" Collapsed="true">
+    <Position X="53.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.BaseServerDialogMessage" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AuthServerDialogMessage" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.UnAuthServerDialogMessage" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AuthServerChatMessage" Collapsed="true">
+    <Position X="51.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAEAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.MessageFromServerWorkerQueueObject" Collapsed="true">
+    <Position X="50" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAUAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.MessageFromServerWorker" Collapsed="true">
+    <Position X="48.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.DB_Controller" Collapsed="true">
+    <Position X="55.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAiAAAAAAAARAAAAQEAAAIBCAAIAAAQAgAAQAAIAAg=</HashCode>
+      <FileName>Classes\DB_Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.DB_Model" Collapsed="true">
+    <Position X="57" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAiAAAAAAAAQAAAAQUAAAIBCAAIAAAAAgAAQgAAACg=</HashCode>
+      <FileName>Classes\DB_Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.DialogLevelsInformation" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAIAAAAEAAgAAAAAAFAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ExceptionOccurenceStruct" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAAAgAAAAAAAAAAAAAAAAAAABAQAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.BaseDialog" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wKZgAOAIBHCASQAgiECEAASqCDAEgIAAJgABABkAUBY=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_AuthDialog" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIBAAgAAAAIAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAI=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_UnAuthDialog" Collapsed="true">
+    <Position X="39.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABgAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAiAAAI=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_LoginRequest" Collapsed="true">
+    <Position X="38.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_LoginDataRequest" Collapsed="true">
+    <Position X="33.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAABAAAEAAggAAAACAAAAAAAAgAAgAAACUAAI=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_CreateAddAgreement" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAAAAAAgAAAAAQAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_GetAgreementAnswer" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAICAAAAAAAgAAAAAABAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ServerReadOfflineMessagesInform" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAACBAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientLeaveChatRequest" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAACAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientSomeoneLeftChatInform" Collapsed="true">
+    <Position X="15.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_server_InformEjectedChatUser" Collapsed="true">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAAAAAgAIAAAAAAAgAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_CreatePrivateChatRequest" Collapsed="true">
+    <Position X="20.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAIBAAAAAAAAAggAAAgBAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientJoinPublicChatRequest" Collapsed="true">
+    <Position X="22.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAADAAAACAAAAggAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientSomeoneJoinedChatInform" Collapsed="true">
+    <Position X="24.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhIAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientFriendChangedStatusInform" Collapsed="true">
+    <Position X="27" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_SendToClinetFormalMessage" Collapsed="true">
+    <Position X="29.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABABAAAAAAAgAAAAAAAAECAAAEAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_FormalMessageRequest" Collapsed="true">
+    <Position X="31.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAACACAgAAAAAABAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientSignupRequest" Collapsed="true">
+    <Position X="40.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAgAQACAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientFriendListChangedInform" Collapsed="true">
+    <Position X="36" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientCreatedPrivateChatInform" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABBAAAAAAAAAogAAAACAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Di_Server_ClientInvitedAgreementInform" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAIgAgAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.BaseDialogManager" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAQAAAAACAACAAAAAAAAIAAAAAEBA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AuthDialogManager" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAAIAAIAAQAAAAAAAAAgAAACAAAIAEEACCAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.UnAuthDialogManager" Collapsed="true">
+    <Position X="39.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABBAAAAIAAQAQAAEAAIAAAAAAAAAIAEEgAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.CsAuthDialogManager" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.SsAuthDialogManager" Collapsed="true">
+    <Position X="28.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.CsUnAuthDialogManager" Collapsed="true">
+    <Position X="39.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_LoginDataRequestDialogManager" Collapsed="true">
+    <Position X="9" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIQAAAAAAAAQAAACAIAAggAAgAAACUAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_LoginRequestDialogManager" Collapsed="true">
+    <Position X="40.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAQAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_CreateAddAgreementDialogManager" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEQQAAAAAAAAAAAABAAAAAAQ=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_GetAgreementAnswerDialogManager" Collapsed="true">
+    <Position X="15.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientLeaveChatRequestDialogManager" Collapsed="true">
+    <Position X="18" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientSomeoneLeftChatInformDialogManager" Collapsed="true">
+    <Position X="36" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_InformEjectedChatUserDialogManager" Collapsed="true">
+    <Position X="20.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_CreatePrivateChatRequestDialogManager" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIAAAAAAAgAAAgAABQCQAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientJoinPublicChatRequestDialogManager" Collapsed="true">
+    <Position X="4.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAIQQAAQAEAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientSomeoneJoinedChatInformDialogManager" Collapsed="true">
+    <Position X="22.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_FormalMessageRequestDialogManager" Collapsed="true">
+    <Position X="6.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABACAAAAAAAAAAAAQAACAAAAAAAAAABAAAAAAQ=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientSignupRequestDialogManager" Collapsed="true">
+    <Position X="38.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientFriendChangedStatusInformDialogManager" Collapsed="true">
+    <Position X="24.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_SendToClinetFormalMessageDialogManager" Collapsed="true">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ServerReadOfflineMessagesInformDialogManager" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientFriendListChangedInformdialogManager" Collapsed="true">
+    <Position X="29.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientCreatedPrivateChatInformDialogManager" Collapsed="true">
+    <Position X="31.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAgAAAAQAAACAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Ma_ClientInvitedAgreementInformDialogManager" Collapsed="true">
+    <Position X="33.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAIAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AllDialogs" Collapsed="true">
+    <Position X="48.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAmQSLBCCAQEBoEGA8MjimSfrKFABBLwUQgBhAidChA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_ServerDelegateForDialogs" Collapsed="true">
+    <Position X="48.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAJBACAAAAAAEAAEACASfAABAAAKgAAgBAAiUAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_BaseBooleanFunctionResult" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_BooleanFunctionAccResult" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_BooleanFunctionRejResult" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_BaseIntFunctionResult" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_IntFunctionRejResult" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Se_IntFunctionAccResult" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.HelperFunctions" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.OfflineUserWorks" Collapsed="true">
+    <Position X="55.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgkAAgAAAIgAAAAAEgQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ThreadWorks" Collapsed="true">
+    <Position X="53.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAEQAEAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.AuthenticateAndDistribute" Collapsed="true">
+    <Position X="50" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACNAAAAAAAAAAQAIAQAAAAAAAAAQAAAAAAgAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.OtherThreads" Collapsed="true">
+    <Position X="57" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAgAAAAAAIAAAQAAAAAAEAAABAAAAA=</HashCode>
+      <FileName>Classes\OtherThreads.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Recycler" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Recycler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ServerCore" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEBAADJIAAQgCQEAEApICAACRWIkDRQcDAAgAEQAAQA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.UserManager" Collapsed="true">
+    <Position X="57" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAGCAEAAAiQAIAAAIDiABAQIAABQAAQACAIAIAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.ThreadManager" Collapsed="true">
+    <Position X="51.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAEAABAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.SendData" Collapsed="true">
+    <Position X="50" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAQAAEAAEQAAAAACgAAAACAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.Test_Di_Server_LoginDataRequest" Collapsed="true">
+    <Position X="50" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\TestClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.WorkerThread" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAARAAAAIgAAAAAgAAAIgAACAAAAAgAgAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.WorkerReceiveThreadConstruct" Collapsed="true">
+    <Position X="43" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.SendThreadResendConstruct" Collapsed="true">
+    <Position X="51.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Classes.WorkerTimer" Collapsed="true">
+    <Position X="48.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAgAAAAAAAAAAAAACABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Server" Collapsed="true">
+    <Position X="57" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MhKIKQAqAAjYkIAQcBAYAIERQAYhEkUaAgqIagSIKSQ=</HashCode>
+      <FileName>Classes\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.ServerThread" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Program" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAABAQAAAAAAAAABgAQAAAAAAAABAAAAQA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerTcpChat.Properties.Settings" Collapsed="true">
+    <Position X="48.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABACAAAAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ServerTcpChat.Classes.PrivateChatStatus" Collapsed="true">
+    <Position X="44.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.TypeOfMessageToDistributer" Collapsed="true">
+    <Position X="51.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.TypeOfMessageToServerWorker" Collapsed="true">
+    <Position X="53.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.UserPresenceState">
+    <Position X="57" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAgAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.TypeOfMessageFromServerWorker" Collapsed="true">
+    <Position X="50" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAASAAAAAAA=</HashCode>
+      <FileName>Classes\CommonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.DialogStatus" Collapsed="true">
+    <Position X="43" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQIAABAAAQAAAAAAAAAAgAAAAAAIgAAIAAAAAgA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.SendWorkerThreadStatus" Collapsed="true">
+    <Position X="46.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.TypeOfSend" Collapsed="true">
+    <Position X="55.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ServerTcpChat.Classes.ServerWorkerStatus" Collapsed="true">
+    <Position X="48.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAIAAAgAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ServerTcpChat.Classes.DB_RemoveAgreement" Collapsed="true">
+    <Position X="46.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_CreateAddAgreement" Collapsed="true">
+    <Position X="51.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_AreFriends" Collapsed="true">
+    <Position X="50" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_AddToFriends" Collapsed="true">
+    <Position X="48.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_IsThereUser" Collapsed="true">
+    <Position X="43" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_IsThereAgreement" Collapsed="true">
+    <Position X="57" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartClientFriendListChangedInformDialog" Collapsed="true">
+    <Position X="50" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ReloadFriendList" Collapsed="true">
+    <Position X="57" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetOnlineUserFriendList" Collapsed="true">
+    <Position X="46.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.AddAgreementDone" Collapsed="true">
+    <Position X="43" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetAllAdAgreements" Collapsed="true">
+    <Position X="51.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RemoveAgr" Collapsed="true">
+    <Position X="44.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AgreementClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.UserSendChatMessage" Collapsed="true">
+    <Position X="53.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ChatSend" Collapsed="true">
+    <Position X="51.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RemoveChat" Collapsed="true">
+    <Position X="50" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartEjectedChatUserInform" Collapsed="true">
+    <Position X="57" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACCAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartClientSomeoneJoinedChatInform" Collapsed="true">
+    <Position X="53.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACCAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartClientSomeoneLeftChatInform" Collapsed="true">
+    <Position X="55.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACCAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChatClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.OnlineAreFriends" Collapsed="true">
+    <Position X="51.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetAgreementAnswer" Collapsed="true">
+    <Position X="50" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.Login" Collapsed="true">
+    <Position X="53.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.AuthSend" Collapsed="true">
+    <Position X="46.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.UnAuthSend" Collapsed="true">
+    <Position X="48.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.IsLoggedIn" Collapsed="true">
+    <Position X="43" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetFriendsList" Collapsed="true">
+    <Position X="43" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetUserStatus" Collapsed="true">
+    <Position X="57" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.IstherUser" Collapsed="true">
+    <Position X="48.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.SignUp" Collapsed="true">
+    <Position X="44.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.IsThereUnauthWorkerThread" Collapsed="true">
+    <Position X="46.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.CreateOfflineMessage" Collapsed="true">
+    <Position X="57" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetOfflineMessages" Collapsed="true">
+    <Position X="44.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetAllAgreementInvitation" Collapsed="true">
+    <Position X="53.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartSendToClinetFormalMessage" Collapsed="true">
+    <Position X="43" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetPublicChatIds" Collapsed="true">
+    <Position X="51.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.JoinPublicChatRequest" Collapsed="true">
+    <Position X="51.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ServerInformChatLeave" Collapsed="true">
+    <Position X="57" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.CreatePrivateChat" Collapsed="true">
+    <Position X="43" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.IsTherePrivateChat" Collapsed="true">
+    <Position X="44.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.IsUserInPublicChat" Collapsed="true">
+    <Position X="50" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetPublicChatUsersList" Collapsed="true">
+    <Position X="53.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.CreatePublicChat" Collapsed="true">
+    <Position X="44.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetPrivateChatInvitationAnswer" Collapsed="true">
+    <Position X="50" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.CreateAddAgreement" Collapsed="true">
+    <Position X="53.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.CreateFormalMessageRequest" Collapsed="true">
+    <Position X="55.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartClientCreatedPrivateChatInform" Collapsed="true">
+    <Position X="46.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.OfflineMessagesReadInform" Collapsed="true">
+    <Position X="48.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetAUserAgreementInvitation" Collapsed="true">
+    <Position X="57" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartClientInvitedAgreementInform" Collapsed="true">
+    <Position X="51.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ALevelOfDialog" Collapsed="true">
+    <Position X="44.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.Remove" Collapsed="true">
+    <Position X="43" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.LoginRequestSucc" Collapsed="true">
+    <Position X="44.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.LoginRequestFail" Collapsed="true">
+    <Position X="43" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ShowMessageToUser" Collapsed="true">
+    <Position X="43" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.LoginDataReceived" Collapsed="true">
+    <Position X="57" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.LoginDataNotReceived" Collapsed="true">
+    <Position X="55.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.SendToServer" Collapsed="true">
+    <Position X="55.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dialogs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DialogReceiveMessage" Collapsed="true">
+    <Position X="48.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ChatReceiveMessage" Collapsed="true">
+    <Position X="50" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.MakeMessagesOffline" Collapsed="true">
+    <Position X="46.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.UserLeaveAllChats" Collapsed="true">
+    <Position X="50" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RemoveAThreadDialogs" Collapsed="true">
+    <Position X="46.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RemoveAUserDialogs" Collapsed="true">
+    <Position X="48.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ThreadisLoggedIn" Collapsed="true">
+    <Position X="44.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.UserOfflineRequest" Collapsed="true">
+    <Position X="51.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RegisterThread" Collapsed="true">
+    <Position X="55.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ThreadRemoveWorks" Collapsed="true">
+    <Position X="46.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RegisterAThreadRequest" Collapsed="true">
+    <Position X="53.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OtherServerClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_IsThereUserPass" Collapsed="true">
+    <Position X="44.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_GetUserFriendsList" Collapsed="true">
+    <Position X="55.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RemoveThread" Collapsed="true">
+    <Position X="51.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.StartClientFriendChangedStatusInformDialog" Collapsed="true">
+    <Position X="48.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAECAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_CreateNewUser" Collapsed="true">
+    <Position X="53.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetOnlineUserThreadID" Collapsed="true">
+    <Position X="48.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetAThreadUserName" Collapsed="true">
+    <Position X="55.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.DB_AddOfflineMessage" Collapsed="true">
+    <Position X="46.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.ChangeStatusToOffline" Collapsed="true">
+    <Position X="48.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.OfflineUser" Collapsed="true">
+    <Position X="50" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.GetUserPresenceState" Collapsed="true">
+    <Position X="55.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ServerCoreClasses.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ServerTcpChat.Classes.RemoveWorker" Collapsed="true">
+    <Position X="53.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
