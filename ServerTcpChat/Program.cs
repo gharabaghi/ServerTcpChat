@@ -200,7 +200,6 @@ namespace ServerTcpChat
             all_unauth_dialogs.Add(TypeOfDialog.LoginRequest, login_equest_dialogs);
             all_unauth_dialogs.Add(TypeOfDialog.ClientSignupRequest, client_signup_request_dialogs);
             return all_unauth_dialogs;
-
         }
 
     }
