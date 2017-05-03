@@ -17,7 +17,7 @@ namespace ServerTcpChatUnitTest
 
         BaseDialog test_dialog;
 
-        string test_user_name;
+        string test_user_name; 
         int test_thread_id;
 
         int last_message_sent_to_dialg_id;
