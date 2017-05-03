@@ -199,7 +199,7 @@ namespace ServerTcpChat
             Dictionary<int, Se_UnAuthDialog> client_signup_request_dialogs = new Dictionary<int, Se_UnAuthDialog>();
             all_unauth_dialogs.Add(TypeOfDialog.LoginRequest, login_equest_dialogs);
             all_unauth_dialogs.Add(TypeOfDialog.ClientSignupRequest, client_signup_request_dialogs);
-            return all_unauth_dialogs;      
+            return all_unauth_dialogs;       
         }
 
     }
