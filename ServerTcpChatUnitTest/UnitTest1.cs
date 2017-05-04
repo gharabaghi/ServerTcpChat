@@ -113,7 +113,7 @@ namespace ServerTcpChatUnitTest
             , new JoinPublicChatRequest(JoinPublicChatRequest), new IsUserInPublicChat(IsUserInPublicChat), new GetPublicChatUsersList(GetPublicChatUsersList)
             , new CreateFormalMessageRequest(CreateFormalMessageRequest), new IstherUser(IstherUser), new CreateOfflineMessage(CreateOfflineMessage)
             , new SignUp(SignUp), new CreateAddAgreement(CreateAddAgreement), new GetAgreementAnswer(GetAgreementAnswer), new OfflineMessagesReadInform(OfflineMessagesReadInform)
-            , new GetPrivateChatInvitationAnswer(GetPrivateChatInvitationAnswer));
+            , new GetPrivateChatInvitationAnswer(GetPrivateChatInvitationAnswer),new GetAUserAgreementInvitation(Test_GetAUserAgreementtInvitation));
 
             Dictionary<TypeOfDialog, Dictionary<int, Se_AuthDialog>> all_auth_dialogs = CreateAllAuthDialogs();
             Dictionary<TypeOfDialog, Dictionary<int, Se_UnAuthDialog>> all_unauth_dialogs = CreateAllUnAuthDialogs();
@@ -814,6 +814,7 @@ namespace ServerTcpChatUnitTest
             Dictionary<int, Se_AuthDialog> formal_message_request_dialogs = new Dictionary<int, Se_AuthDialog>();
             Dictionary<int, Se_AuthDialog> client_friend_list_changed_inform_dialogs = new Dictionary<int, Se_AuthDialog>();
             Dictionary<int, Se_AuthDialog> client_created_private_chat_inform_dialogs = new Dictionary<int, Se_AuthDialog>();
+            Dictionary<int, Se_AuthDialog> client_invited_agreement_inform_dialog_manager = new Dictionary<int, Se_AuthDialog>();
 
             Dictionary<TypeOfDialog, Dictionary<int, Se_AuthDialog>> all_auth_dialogs = new Dictionary<TypeOfDialog, Dictionary<int, Se_AuthDialog>>();
             all_auth_dialogs.Add(TypeOfDialog.LoginDataRequest, login_data_request_dialogs);
@@ -831,6 +832,7 @@ namespace ServerTcpChatUnitTest
             all_auth_dialogs.Add(TypeOfDialog.FormalMessageRequest, formal_message_request_dialogs);
             all_auth_dialogs.Add(TypeOfDialog.ClientFriendListChangedInform, client_friend_list_changed_inform_dialogs);
             all_auth_dialogs.Add(TypeOfDialog.ClientCreatedPrivateChatInform, client_created_private_chat_inform_dialogs);
+            all_auth_dialogs.Add(TypeOfDialog.ClientInvitedAgreementInform, client_invited_agreement_inform_dialog_manager);
 
             return all_auth_dialogs;
         }
@@ -842,6 +844,12 @@ namespace ServerTcpChatUnitTest
             all_unauth_dialogs.Add(TypeOfDialog.LoginRequest, login_equest_dialogs);
             all_unauth_dialogs.Add(TypeOfDialog.ClientSignupRequest, client_signup_request_dialogs);
             return all_unauth_dialogs;
+        }
+
+        public AgreementInvitationInfo Test_GetAUserAgreementtInvitation(string username, int id)
+        {
+            AgreementInvitationInfo T_Agreementinvitationinfo = new AgreementInvitationInfo("Ali", "hello", 3, TypeOfAgreement.Add);
+            return T_Agreementinvitationinfo;
         }
 
     }

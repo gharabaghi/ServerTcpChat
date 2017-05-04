@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CommonChatTypes">
-      <HintPath>..\..\..\CommonChatTypes\CommonChatTypes\bin\Debug\CommonChatTypes.dll</HintPath>
+      <HintPath>..\ServerTcpChat\bin\Debug\CommonChatTypes.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
