@@ -834,7 +834,7 @@ namespace ServerTcpChatUnitTest
             all_auth_dialogs.Add(TypeOfDialog.ClientCreatedPrivateChatInform, client_created_private_chat_inform_dialogs);
             all_auth_dialogs.Add(TypeOfDialog.ClientInvitedAgreementInform, client_invited_agreement_inform_dialog_manager);
 
-            return all_auth_dialogs; 
+            return all_auth_dialogs;  
         }
         private static Dictionary<TypeOfDialog, Dictionary<int, Se_UnAuthDialog>> CreateAllUnAuthDialogs()
         {
